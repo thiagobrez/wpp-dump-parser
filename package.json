@@ -1,0 +1,15 @@
+{
+  "name": "wpp-dump-parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:thiagobrez/wpp-dump-parser.git",
+  "author": "Thiago Brezinski",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "json2csv": "^5.0.6"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
