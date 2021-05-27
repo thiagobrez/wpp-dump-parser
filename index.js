@@ -53,7 +53,13 @@ const formattedMessages = messages.map((string, index) => {
     }
 })
 
-const filteredMessages = formattedMessages.filter(message => !message.user.includes('saiu'))
+const filteredMessages = formattedMessages.filter(message =>
+    !message.user.includes('entrou') &&
+    !message.user.includes('saiu') &&
+    !message.user.includes('adicionou') &&
+    !message.user.includes('removeu') &&
+    !message.user.includes('mudou')
+)
 
 const fields = [
     {label: 'Data', value: 'date'},
